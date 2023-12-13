@@ -1,4 +1,4 @@
-'''Calculate the gcd of 2 numbers'''
+'''Calculate the gcd of 2 numbers using the euclidean algorithm'''
 num1 = int(input('Please enter the first number for the gcd: '))
 num2 = int(input('Please enter the second number for the gcd: '))
 
