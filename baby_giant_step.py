@@ -25,8 +25,8 @@ c, bi, gi = np.intersect1d(np.array(baby_list), np.array(giant_list), return_ind
 if len(c)==0:
     print("No collisions found :(")
 else:
-    j = bi[3]+1 # power g was raised to for the collision
-    k = gi[3]+1 # power g^-N was raised to for the collision
+    j = bi[0]+1 # power g was raised to for the collision
+    k = gi[0]+1 # power g^-N was raised to for the collision
     a = int(j+ (k*N))
     print(f'a = {a}')
     
